@@ -4,6 +4,9 @@
     <Filter Include="LegendaryBeetroot">
       <UniqueIdentifier>{44FC42CC-B012-4162-F989-CC8365DF11EA}</UniqueIdentifier>
     </Filter>
+    <Filter Include="LegendaryBeetroot\Events">
+      <UniqueIdentifier>{A8B38188-94D8-D008-BD23-B698A9A7CF26}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Beet.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\LegendaryBeetroot\Entrypoint.h">
       <Filter>LegendaryBeetroot</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LegendaryBeetroot\Events\ApplicationEvent.h">
+      <Filter>LegendaryBeetroot\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LegendaryBeetroot\Events\Event.h">
+      <Filter>LegendaryBeetroot\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LegendaryBeetroot\Events\KeyEvent.h">
+      <Filter>LegendaryBeetroot\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LegendaryBeetroot\Events\MouseEvent.h">
+      <Filter>LegendaryBeetroot\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\LegendaryBeetroot\Log.h">
       <Filter>LegendaryBeetroot</Filter>

@@ -26,6 +26,7 @@ project "LegendaryBeetroot"
 	
 	includedirs
 	{
+		"%{prj.name}/src",
 		"%{prj.name}/vendor/spdlog/include"
 	}
 	
@@ -72,8 +73,8 @@ project "Sandbox"
 	
 	includedirs
 	{
+		"LegendaryBeetroot/src",
 		"LegendaryBeetroot/vendor/spdlog/include",
-		"LegendaryBeetroot/src"
 	}
 	
 	links 
