@@ -1,3 +1,6 @@
 [submodule "LegendaryBeetroot/vendor/spdlog"]
 	path = LegendaryBeetroot/vendor/spdlog
 	url = https://github.com/gabime/spdlog
+[submodule "LegendaryBeetroot/vendor/GLFW"]
+	path = LegendaryBeetroot/vendor/GLFW
+	url = https://github.com/TheCherno/glfw
